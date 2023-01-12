@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a -ltr
+-ltr ls -a
