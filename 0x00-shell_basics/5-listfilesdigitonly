@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a id
+ls -a -ltr
