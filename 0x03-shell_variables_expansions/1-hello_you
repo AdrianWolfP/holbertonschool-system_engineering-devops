@@ -1,2 +1,2 @@
 #!/bin/bash
-id -nu "printf hello id -nu" 
+printf 'hello' $USER
