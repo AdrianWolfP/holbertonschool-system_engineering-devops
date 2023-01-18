@@ -5,7 +5,7 @@ read commit_message
 git commit -m "$commit_message"
 result=$?
 if [ $result -eq 0 ]; then 
-	get push 
+	git push 
 else
 	echo "commit fail"
 fi
