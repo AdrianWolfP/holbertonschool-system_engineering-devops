@@ -1,2 +1,2 @@
 #!/bin/bash
-id -n printf 'hello' printf id -n
+id -n "printf hello id -n"
