@@ -1,2 +1,2 @@
 #!/bin/bash
-print $(( $a ** $z )) 
+printf { a..z} grep -v
