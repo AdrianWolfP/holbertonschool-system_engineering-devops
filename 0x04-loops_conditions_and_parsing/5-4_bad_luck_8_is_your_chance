@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Have bad luck on 4 and good luck on 8
 i=1
-while [ "$i" -lt 10 ]
+while [ $i -lt 11 ]
 do
 	if [ "$i" == 4 ]
-	then echo "Bad luck"
+	then echo "bad luck"
 	elif [ "$i" == 8 ]
 	then echo "good luck"
 	else
-	echo "best School"
+	echo "Best School"
 	fi
 	((i++))
 done	
