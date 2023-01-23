@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#listdir
+# Trash
 i=1
 ls -1 . | cut -f 2 -d '-'
 for i in [ i -e 1 ]
