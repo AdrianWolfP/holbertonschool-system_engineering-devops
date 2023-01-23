@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# comments
+grep "bash" | ps -auh
+shellcheck disable=SC2009
